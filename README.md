@@ -30,10 +30,10 @@ Important Notes:
 
 # HUANANZHI X10X99 16D
 
-- Custom BIOS for HUANANZHI X10X99-16D motherboard
+- Custom BIOS for HUANANZHI X10X99-16D motherboard -> 9916DV13.bin
 - This custom BIOS adds S3 Turbo Unlock and -60mv undervolting.
 - Tested fine and stable with dual XEON E5-2698v3 CPUs.
-- This commit also includes the original vendor BIOS v1.3 
+- This commit also includes the original vendor BIOS v1.3 -> 9916DV13_org.bin
 - May add other variants of this BIOS on demand.
 
 Note: This motherboard does need updated BMC for better fan control. Make sure you have updated the BMC SOC flash as well.
