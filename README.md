@@ -2,6 +2,10 @@
 - This repository contains only the modded BIOS files.
 - No instructions are given. USE AT YOUR OWN RISK IF YOU KNOW WHAT YOU ARE DOING. NO SUPPORT OR GUARANTEE IT WILL WORK FOR YOU!
 
+# Important Notes:
+- BACKUP YOUR BIOS BEFORE FLASHING!!
+- FLASH ANY BIOS ON YOUR OWN RISK ONLY !!
+
 # Checkpoint 4800 / T-180
 - This custom BIOS does add Intel XEON support for the CheckPoint 4800 Firewall.
 - Some XEON CPUs are more energy efficient, compared to the stock Core 2 Quad Q9400 with 95W TDP.
@@ -20,15 +24,23 @@ Notes:
 - Not only the BIOS, but the CPU also needs to be modded for this to work! Check about how 771 Xeons can run in 775 boards !!
 - You need to flash the BIOS using a CH471a programmer, luckily the BIOS chip is removable and its easy to do.
 
-Important Notes:
-- BACKUP YOUR BIOS BEFORE FLASHING!!
-- FLASH THIS BIOS ON YOUR OWN RISK ONLY !!
-
-
 # HUANANZHI X10X99 16D
-- Custom BIOS for HUANANZHI X10X99-16D motherboard -> 9916DV13.bin
-- This custom BIOS adds S3 Turbo Unlock and -60mv undervolting.
-- Tested fine and stable with dual XEON E5-2698v3 CPUs.
-- This commit also includes the original vendor BIOS v1.3 -> 9916DV13_org.bin
-- May add other variants of this BIOS on demand.
+- Custom BIOS for HUANANZHI X10X99-16D motherboard
+- Various BIOS mods wiht S3 Turbo Unlock and -0mv to -100mv undervolting.
+```
+X10X9916DV13-0.bin
+X10X9916DV13-50.bin
+X10X9916DV13-60.bin
+X10X9916DV13-70.bin
+X10X9916DV13-80.bin
+X10X9916DV13-90.bin
+X10X9916DV13-100.bin
+```
+- Original vendor BIOS v1.3 ```9916DV13.bin``` as from source:```X10X99-16D V1.3 23-10-24 优化解决不能通过U盘升级BIOS问题.rar```
+
 - Note: This motherboard does need updated BMC for better fan control. Make sure you have updated the BMC SOC flash as well.
+  Check with vendor on updated released directly! Use below links at your own risk!
+
+- Vendor Links:
+  [Official BMC firmware](https://drive.google.com/file/d/13n3X6cydaHWNnvgJijHUf6cQ-x7x8e5b/edit)
+  [Official BIOS X10X99-16D V1.3 23-10-24](https://drive.google.com/file/d/1R2hj4ygJ9yF1kbl6d4wDdewC35Riamzc/edit)
