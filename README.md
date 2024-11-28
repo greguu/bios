@@ -27,6 +27,8 @@ Notes:
 # HUANANZHI X10X99 16D
 - Custom BIOS for HUANANZHI X10X99-16D motherboard
 - Various BIOS mods wiht S3 Turbo Unlock and -0mv to -100mv undervolting.
+- Best flashed using CH341A (green 3.3V) + SOIC8 Clip directly to the W25Q128JV chip. First power on may take a while and reboot often. Reset BIOS to defaults and reconfigure on first boot. 
+
 ```
 X10X9916DV13-0.bin
 X10X9916DV13-50.bin
