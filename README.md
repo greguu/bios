@@ -26,7 +26,7 @@ Notes:
 
 # HUANANZHI X10X99 16D
 - Custom BIOS for HUANANZHI X10X99-16D motherboard
-- Various BIOS mods wiht S3 Turbo Unlock and -0mv to -100mv undervolting.
+- Various BIOS mods with S3 Turbo Unlock and -0mv to -100mv undervolting.
 - Best flashed using CH341A (green 3.3V) + SOIC8 Clip directly to the W25Q128JV chip. First power on may take a while and reboot often. Reset BIOS to defaults and reconfigure on first boot. 
 
 ```
@@ -42,6 +42,8 @@ X10X9916DV13-100.bin
 
 - Note: This motherboard does need updated BMC for better fan control. Make sure you have updated the BMC SOC flash as well.
   Check with vendor on updated released directly! Use below links at your own risk!
+
+- If system freezes randomly when using modified BIOS with undervolting try to disable the BMC in BIOS. 
 
 - Vendor Links:
   [Official BMC firmware](https://drive.google.com/file/d/13n3X6cydaHWNnvgJijHUf6cQ-x7x8e5b/edit)
