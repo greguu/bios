@@ -43,7 +43,11 @@ X10X9916DV13-100.bin
 - Note: This motherboard does need updated BMC for better fan control. Make sure you have updated the BMC SOC flash as well.
   Check with vendor on updated released directly! Use below links at your own risk!
 
-- If system freezes randomly when using modified BIOS with undervolting try to disable the BMC in BIOS. 
+- If system freezes randomly when using the modified BIOS try these steps at your own risk:
+    - Use following kernel parameters at your own risk ```pcie_aspm=off intel_pstate=disable intel_idle.max_cstate=1``` if you run Linux
+    - Cool your VRM. 
+    - Undervolt more (eg from -50 to -60 or -70) or less.. (only if you know why)
+    - Revert back to stock BIOS if you can not fix it.
 
 - Vendor Links:
   [Official BMC firmware](https://drive.google.com/file/d/13n3X6cydaHWNnvgJijHUf6cQ-x7x8e5b/edit)
